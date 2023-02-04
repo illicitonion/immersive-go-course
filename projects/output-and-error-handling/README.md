@@ -127,7 +127,7 @@ Or the same for `curl`:
 shows lots of very specific information:
 
 <details><summary>Click to expand the full output of the exit codes section of `man curl`</summary>
-<pre>
+```
 EXIT CODES
        There are a bunch of different error codes and their corresponding error messages that may appear under error conditions. At the time of this writing, the exit codes are:
 
@@ -298,7 +298,7 @@ EXIT CODES
        96     QUIC connection error. This error may be caused by an SSL library error. QUIC is the protocol used for HTTP/3 transfers.
 
        XX     More error codes will appear here in future releases. The existing ones are meant to never change.
-</pre>
+```
 </details>
 
 ### Handling errors in your code
